@@ -1,19 +1,19 @@
 'use client';
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import SkillsWidget from '/workspaces/cs220-portfolio-team-3-kaiden-gustavo-thomas/src/components/SkillsWidget Component/SkillsWidget.jsx';
-import '/workspaces/cs220-portfolio-team-3-kaiden-gustavo-thomas/src/components/SkillsWidget Component/SkillsWidget.css';
-import WorkWidget from '/workspaces/cs220-portfolio-team-3-kaiden-gustavo-thomas/src/components/WorkWidget Component/WorkWidget.jsx';
-import '/workspaces/cs220-portfolio-team-3-kaiden-gustavo-thomas/src/components/WorkWidget Component/WorkWidget.css';
+import SkillsWidget from 'src/components/SkillsWidget Component/SkillsWidget.jsx';//fixed
+import 'src/components/SkillsWidget Component/SkillsWidget.css';//fixed
+import WorkWidget from '/workspaces/Kaiden-Nielsen-Final/src/components/WorkWidget Component/WorkWidget.jsx';//fixed
+import 'src/components/WorkWidget Component/WorkWidget.css';//fixed
 import Navbar from '/workspaces/cs220-portfolio-team-3-kaiden-gustavo-thomas/src/components/Navbar component/Navbar.jsx';
-import Footer from '/workspaces/cs220-portfolio-team-3-kaiden-gustavo-thomas/src/components/Footer component/Footer.jsx';
-import '/workspaces/cs220-portfolio-team-3-kaiden-gustavo-thomas/src/components/Footer component/Footer.css';
-import SignupWidget from '/workspaces/cs220-portfolio-team-3-kaiden-gustavo-thomas/src/components/SignupWidget Component/SignupWidget.jsx';
-import '/workspaces/cs220-portfolio-team-3-kaiden-gustavo-thomas/src/components/SignupWidget Component/SingupWidget.css';
-import ThemeSwitcher from '/workspaces/cs220-portfolio-team-3-kaiden-gustavo-thomas/src/components/Theme Switcher/ThemeSwitcher.jsx';
-import '/workspaces/cs220-portfolio-team-3-kaiden-gustavo-thomas/src/components/Theme Switcher/ThemeSwitcher.css';
-import ArticleCard from '/workspaces/cs220-portfolio-team-3-kaiden-gustavo-thomas/src/components/Article Card component/ArticleCard.jsx';
-import '/workspaces/cs220-portfolio-team-3-kaiden-gustavo-thomas/src/components/Article Card component/ArticleCard.css';
+import Footer from '/workspaces/Kaiden-Nielsen-Final/src/components/Footer component/Footer.jsx';//fixed
+import '/workspaces/Kaiden-Nielsen-Final/src/components/Footer component/Footer.css';//fixed
+import SignupWidget from '/workspaces/Kaiden-Nielsen-Final/src/components/SignupWidget Component/SignupWidget.jsx';//fixed
+import '/workspaces/Kaiden-Nielsen-Final/src/components/SignupWidget Component/SingupWidget.css'; //fixed
+import ThemeSwitcher from '/workspaces/Kaiden-Nielsen-Final/src/components/Theme Switcher/ThemeSwitcher.jsx'; //fixed
+import '/workspaces/Kaiden-Nielsen-Final/src/components/Theme Switcher/ThemeSwitcher.css'; //fixed
+import ArticleCard from '/workspaces/Kaiden-Nielsen-Final/src/components/Article Card component/ArticleCard.jsx';//fixed
+import '/workspaces/Kaiden-Nielsen-Final/src/components/Article Card component/ArticleCard.css';//fixed
 
 export const HomePage = {
   title: 'Portfolio - Home',
