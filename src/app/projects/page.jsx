@@ -1,13 +1,13 @@
 'use client';
 import React, { useState } from 'react';
 import PropTypes from "prop-types";
-import Navbar from "../../components/Navbar component/Navbar.jsx";
-import FooterComponent from "../../components/Footer component/Footer.jsx"; // Renamed to avoid conflicts
-import "../../components/Footer component/Footer.css";
-import ProjectCard from "/workspaces/cs220-portfolio-team-3-kaiden-gustavo-thomas/src/components/Project Card component/ProjectCard.jsx";
-import "/workspaces/cs220-portfolio-team-3-kaiden-gustavo-thomas/src/components/Project Card component/ProjectCard.css";
-import ThemeSwitcher from '/workspaces/cs220-portfolio-team-3-kaiden-gustavo-thomas/src/components/Theme Switcher/ThemeSwitcher.jsx';
-import '/workspaces/cs220-portfolio-team-3-kaiden-gustavo-thomas/src/components/Theme Switcher/ThemeSwitcher.css';
+import Navbar from '/workspaces/cs220-portfolio-team-3-kaiden-gustavo-thomas/src/components/Navbar component/Navbar.jsx';
+import Footer from '/workspaces/Kaiden-Nielsen-Final/src/components/Footer component/Footer.jsx';//fixed
+import '/workspaces/Kaiden-Nielsen-Final/src/components/Footer component/Footer.css';//fixed
+import ProjectCard from "src/components/Project Card component/ProjectCard.jsx";//fixed
+import "src/components/Project Card component/ProjectCard.css";//fixed
+import ThemeSwitcher from '/workspaces/Kaiden-Nielsen-Final/src/components/Theme Switcher/ThemeSwitcher.jsx'; //fixed
+import '/workspaces/Kaiden-Nielsen-Final/src/components/Theme Switcher/ThemeSwitcher.css'; //fixed
 
 export const ProjectsPage = {
   title: "Portfolio - Projects",
