@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import './WorkWidget.css';
+import 'src/components/WorkWidget Component/WorkWidget.css';
 
 const WorkWidget = ({ title, content, experiences }) => {
   return (

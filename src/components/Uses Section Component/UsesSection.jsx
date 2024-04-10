@@ -1,6 +1,6 @@
-import './UsesSection.css';
+import 'src/components/Uses Section Component/UsesSection.css';
 import PropTypes from 'prop-types';
-import UsesCard from "../../components/Uses Card Component/UsesCard.jsx"; // Use relative path
+import UsesCard from "src/components/Uses Card Component/UsesCard.jsx"; // Use relative path
 
 const UsesSection = ({ items }) => {
   return (

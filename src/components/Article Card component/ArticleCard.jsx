@@ -1,4 +1,4 @@
-import "./ArticleCard.css";
+import "src/components/Article Card component/ArticleCard.css";
 import PropTypes from "prop-types";
 
 const ArticleCard = ({ date, title, content, link }) => {

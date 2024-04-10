@@ -1,4 +1,4 @@
-import './UsesCard.css';
+import '.src/components/Uses Card Component/UsesCard.css';
 import PropTypes from 'prop-types';
 
 const UsesCard = ({ title, content }) => {

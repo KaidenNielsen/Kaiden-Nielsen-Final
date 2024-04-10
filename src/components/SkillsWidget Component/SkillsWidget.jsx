@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import './SkillsWidget.css';
+import 'src/components/SkillsWidget Component/SkillsWidget.css';
 
 const SkillsWidget = ({ title, content, skills }) => {
   return (

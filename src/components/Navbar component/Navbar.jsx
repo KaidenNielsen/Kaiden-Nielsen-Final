@@ -1,4 +1,4 @@
-import './Navbar.css';
+import 'src/components/Navbar component/Navbar.css';
 import PropTypes from 'prop-types';
 
 

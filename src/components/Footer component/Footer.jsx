@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import "./Footer.css";
+import "src/components/Footer component/Footer.css";
 
 const Footer = ({ links }) => (
   <footer data-testid="footer" className="footer">
